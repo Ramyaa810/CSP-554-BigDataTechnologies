@@ -1,0 +1,76 @@
+chmod 400 D:/MAS/CSP-524-Big Data Technologies/Assignments/2-Assignment/emr-key-pair.pem
+
+chmod 400 D:\MAS\CSP-524-BigDataTechnologies\Assignments\9-Assignment/emr-key-pair.pem
+
+chmod 400 D:/MAS/CSP-524-BigDataTechnologies/Assignments/9-Assignment/emr-key-pair.pem
+emr-key-pair.pem
+
+ssh -i D:/MAS/CSP-524-BigDataTechnologies/Assignments/6-Assignment/emr-key-pair.pem hadoop@ec2-34-207-60-172.compute-1.amazonaws.com
+
+ssh -i D:/MAS/CSP-554-BigDataTechnologies/Assignments/9-Assignment/emr-key-pair.pem hadoop@ec2-100-26-49-105.compute-1.amazonaws.com
+ssh -i D:\\MAS\\CSP-554-BigDataTechnologies\\Assignments\\9-Assignment\\emr-key-pair.pem hadoop@ec2-54-221-166-206.compute-1.amazonaws.com
+
+
+scp -i D:/MAS/CSP-524-BigDataTechnologies/Assignments/9-Assignment/emr-key-pair.pem D:/MAS/CSP-524-BigDataTechnologies/Assignments/9-Assignment/init.cql  hadoop@ec2-3-88-255-225.compute-1.amazonaws.com:/home/hadoop
+
+scp -i D:\\MAS\\CSP-554-BigDataTechnologies\\Assignments\\9-Assignment\\emr-key-pair.pem D:/MAS/CSP-554-BigDataTechnologies/Assignments/9-Assignment/ex1.js  hadoop@ec2-54-221-166-206.compute-1.amazonaws.com:/home/hadoop
+
+
+hadoop fs -mkdir user/csp554
+
+hadoop fs -copyFromLocal RamyaKrishnan.txt
+
+hadoop fs -put /home/hadoop/w.data /user/hadoop/
+
+hadoop fs -put /home/hadoop/RamyaKrishnan.txt  /user/csp554/
+
+hadoop fs -copyFromLocal "C:/Users/ramya/OneDrive/Desktop/RamyaKrishnan.txt" /user/csp554/
+
+scp -i D:/MAS/CSP-524-BigDataTechnologies/Assignments/6-Assignment/emr-key-pair.pem D:/MAS/CSP-524-BigDataTechnologies/Assignments/4-Assignment/TestDataGen.class hadoop@ec2-34-207-60-172.compute-1.amazonaws.com:/home/hadoop
+
+hdfs dfs -copyFromLocal foodratings157592.txt /user/csp554;
+
+hadoop fs -copyFromLocal /home/hadoop/foodratings157592.txt /user/csp554;
+
+hdfs dfs -copyFromLocal foodplaces157592.txt hdfs:///user/csp554;
+
+hadoop fs -copyFromLocal /home/hadoop/foodplaces157592.txt /user/hadoop/;
+
+hadoop fs -copyFromLocal /home/hadoop/foodplaces157592.txt /user/hadoop/;
+
+aws s3 cp s3://a20506653/A20506653.txt /home/hadoop/A20506653.txt
+
+hadoop fs -cp s3://a20506653/A20506653.txt hdfs:///user/csp554-2 
+
+hadoop fs –cat /user/csp554-2/A20506653.txt
+
+ssh rkrishnan1@fourier.cs.iit.edu
+
+hadoop fs -rm /user/csp554-2/A20506653.txt
+
+pscp rkrishnan1@216.47.157.250:/home/class/fall-22/cs525/rkrishnan1/cs525-f22-05/assign3/* /c/Users/ramya/Downloads/MossApp-master/allfiles/
+C:\Users\ramya\Downloads\MossApp-master\allfiles\ 
+
+ scp rkrishnan1@216.47.157.250:/home/class/fall-22/cs525/rkrishnan1/cs525-f22-05/assign3/dberror.o C:\Users\ramya\Downloads\MossApp-master\allfiles\
+
+scp rkrishnan1@fourier.cs.iit.edu:/home/class/fall-22/cs525/rkrishnan1/cs525-f22-05/assign3/* C:\Users\ramya\Downloads\MossApp-master\allfiles\New folder\
+
+
+scp rkrishnan1@216.47.157.250:/home/class/fall-22/cs525/rkrishnan1/cs525-f22-05/assign3/dberror.o dberror.o
+scp rkrishnan1@216.47.157.250:/home/class/fall-22/cs525/rkrishnan1/cs525-f22-05/assign3/test_assign3_1.o test_assign3_1.o
+scp rkrishnan1@216.47.157.250:/home/class/fall-22/cs525/rkrishnan1/cs525-f22-05/assign3/record_mgr.o record_mgr.o
+scp rkrishnan1@216.47.157.250:/home/class/fall-22/cs525/rkrishnan1/cs525-f22-05/assign3/buffer_mgr.o buffer_mgr.o
+scp rkrishnan1@216.47.157.250:/home/class/fall-22/cs525/rkrishnan1/cs525-f22-05/assign3/storage_mgr.o storage_mgr.o
+scp rkrishnan1@216.47.157.250:/home/class/fall-22/cs525/rkrishnan1/cs525-f22-05/assign3/buffer_mgr_stat.o buffer_mgr_stat.o
+
+scp rkrishnan1@:/home/class/fa
+ll-22/cs525/rkrishnan1/cs525-f22-05/assign3 
+
+scp -i rkrishnan1@fourier.cs.iit.edu:/home/class/fall-22/cs525/rkrishnan1/cs525-f22-05/assign3
+
+scp dberror.o RamyaKrishnan@104.194.110.214:C:\Users\ramya\Downloads\MossApp-master\allfiles\
+
+pscp rkrishnan1@fourier.cs.iit.edu:/home/class/fall-22/cs525/rkrishnan1/cs525-f22-05/assign3/* /c/Users/ramya/Downloads/MossApp-master/allfiles/New folder
+ 
+
+https://unix.stackexchange.com/questions/188285/how-to-copy-a-file-from-a-remote-server-to-a-local-machine

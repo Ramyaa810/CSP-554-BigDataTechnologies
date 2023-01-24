@@ -1,0 +1,1 @@
+select * from music where numbersold >= 700000 ALLOW FILTERING;

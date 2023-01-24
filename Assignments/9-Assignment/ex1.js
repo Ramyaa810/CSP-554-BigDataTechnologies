@@ -1,0 +1,1 @@
+db.unicorns.find({weight:{$lt:500}})
